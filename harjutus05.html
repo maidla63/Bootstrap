@@ -4,15 +4,42 @@
     <meta charset="UTF-8">
     <title>Bootstrap 4 Harjutus</title>
 
-    <!-- Bootstrap 4 -->
+
     <link rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-    <!-- Font Awesome -->
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- OMA CSS -->
+    <link rel="stylesheet" href="css/style1.css">
 </head>
 <body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+        <i class="fas fa-user mr-2"></i>Maidla
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Avaleht</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Epood</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Kassa</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Kontakt</a></li>
+        </ul>
+
+        <button class="btn btn-success">
+            <i class="fas fa-sign-in-alt mr-1"></i> Logi sisse
+        </button>
+    </div>
+</nav>
 
 
 <div class="jumbotron jumbotron-fluid text-center"
@@ -26,11 +53,10 @@
     </div>
 </div>
 
-<!-- SISU -->
+
 <div class="container">
     <div class="row">
 
-     
         <div class="col-md-4 mb-4">
             <div class="card">
                 <img src="https://images.pexels.com/photos/34950/pexels-photo.jpg"
@@ -42,9 +68,7 @@
                     <span class="badge badge-success">Roheline</span>
                     <span class="badge badge-warning">Soovitus</span>
 
-                    <p class="card-text mt-2">
-                        Äge mets
-                    </p>
+                    <p class="card-text mt-2">Äge mets</p>
 
                     <i class="fab fa-linkedin fa-2x mr-2"></i>
                     <i class="fab fa-twitter fa-2x mr-2"></i>
@@ -53,7 +77,6 @@
             </div>
         </div>
 
-     
         <div class="col-md-4 mb-4">
             <div class="card">
                 <img src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg"
@@ -64,10 +87,9 @@
                     <span class="badge badge-danger">Hot</span>
                     <span class="badge badge-info">Info</span>
                     <span class="badge badge-secondary">Hall</span>
+                    <span class="badge badge-secondary">Kaspar Säälits</span>
 
-                    <p class="card-text mt-2">
-                        Väga lahe pilt
-                    </p>
+                    <p class="card-text mt-2">Väga lahe pilt</p>
 
                     <i class="fab fa-linkedin fa-2x mr-2"></i>
                     <i class="fab fa-twitter fa-2x mr-2"></i>
@@ -76,12 +98,11 @@
             </div>
         </div>
 
-        
         <div class="col-md-4 mb-4">
             <div class="card">
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item"
-                            src="https://www.youtube.com/watch?v=X8KdawFd874"
+                            src="https://www.youtube.com/embed/X8KdawFd874"
                             allowfullscreen></iframe>
                 </div>
                 <div class="card-body">
@@ -89,11 +110,10 @@
 
                     <span class="badge badge-dark">Video</span>
                     <span class="badge badge-primary">Bootstrap</span>
-                    <span class="badge badge-success">Õpe</span>
+                    <span class="badge badge-success">Midgetid</span>
+                    <span class="badge badge-success">Kaamlid</span>
 
-                    <p class="card-text mt-2">
-                        Lahe juutubi vidju
-                    </p>
+                    <p class="card-text mt-2">Lahe juutubi vidju</p>
 
                     <i class="fab fa-linkedin fa-2x mr-2"></i>
                     <i class="fab fa-twitter fa-2x mr-2"></i>
@@ -104,6 +124,5 @@
 
     </div>
 </div>
-
 </body>
 </html>
