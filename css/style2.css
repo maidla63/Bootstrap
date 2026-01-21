@@ -1,0 +1,26 @@
+
+body {
+    background-color: #f8f9fa;
+}
+
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+
+.breadcrumb {
+    background-color: #e9ecef;
+}
+
+
+.card-title {
+    font-weight: bold;
+}
