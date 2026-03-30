@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="et">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap 5 Kontrolltöö</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-white border-bottom">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">kniga.com</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link" href="#avaleht">Avaleht</a></li>
+            <li class="nav-item"><a class="nav-link" href="#hinnad">Hinnad</a></li>
+            <li class="nav-item"><a class="nav-link" href="#meist">Meist</a></li>
+            <li class="nav-item"><a class="nav-link" href="#tiim">Tiim</a></li>
+            <li class="nav-item ms-lg-2">
+              <a class="btn btn-sm btn-primary" href="#">mingi igav nupp</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="avaleht" class="py-5 text-center">
+      <div class="container">
+        <h1 class="fw-bold">Bootstrap 5</h1>
+        <p class="text-muted">
+          Selle laheda koodiga sai luua selle väga vägeva veebilehe ilma ai-ta
+        </p>
+        <div class="d-flex justify-content-center gap-2">
+          <a class="btn btn-primary" href="#">vajuta siia</a>
+          <a class="btn btn-outline-secondary" href="#">ära siia vajuta</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="py-5 bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <img
+              class="img-fluid rounded shadow"
+              src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?auto=format&fit=crop&w=1400&q=60"
+              alt="Suur pilt"
+            />
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-5 g-4">
+          <div class="col-md-5">
+            <h6 class="fw-bold">Funktsioon üks</h6>
+            <p class="text-muted small mb-0">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor incididunt.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <h6 class="fw-bold">Funktsioon kaks</h6>
+            <p class="text-muted small mb-0">
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <h6 class="fw-bold">Funktsioon kolm</h6>
+            <p class="text-muted small mb-0">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <h6 class="fw-bold">Funktsioon neli</h6>
+            <p class="text-muted small mb-0">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="py-5 text-center">
+      <div class="container">
+        <div class="mb-3">
+          <span class="badge rounded-pill text-bg-primary p-3">
+            <i class="bi bi-check-lg"></i>
+          </span>
+        </div>
+        <p class="text-muted mb-0">siin on ai kontroll</p>
+      </div>
+    </div>
+
+    <div id="meist" class="py-5 bg-light">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6">
+            <img
+              class="img-fluid rounded shadow"
+              src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1400&q=60"
+              alt="Mets"
+            />
+          </div>
+          <div class="col-lg-5 offset-lg-1">
+            <h4 class="fw-bold">legod</h4>
+            <p class="text-muted">kasuta legosi kui sa tahad olla sama lahe kui mina</p>
+            <a class="btn btn-sm btn-outline-primary" href="#">lego.bootstap.tokengrabber</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="py-5">
+      <div class="container text-center">
+        <h5 class="fw-bold">maitea mis asi see on</h5>
+        <p class="text-muted">midagi huvitavat</p>
+
+        <div class="row g-3 mt-3">
+          <div class="col-md-4">
+            <img
+              class="img-fluid rounded shadow"
+              src="https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?auto=format&fit=crop&w=1200&q=60"
+              alt="Wire 1"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              class="img-fluid rounded shadow"
+              src="https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?auto=format&fit=crop&w=1200&q=60"
+              alt="Wire 2"
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              class="img-fluid rounded shadow"
+              src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?auto=format&fit=crop&w=1200&q=60"
+              alt="Wire 3"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="tiim" class="py-5 bg-light">
+      <div class="container">
+        <h5 class="fw-bold text-center mb-4">Meie super lahe tiim</h5>
+
+        <div class="row g-3">
+          <div class="col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="https://kapitaligrupp.ee/wp-content/uploads/2021/04/Ulle-v.jpg"
+                class="card-img-top"
+                alt="Tiim 1"
+              />
+              <div class="card-body text-center">
+                <div class="fw-bold">Ülle Doos</div>
+                <div class="text-muted small">Eneseületaja</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BMTQwOTY0NDQxNl5BMl5BanBnXkFtZTcwMzQ4NzUwMg@@._V1_.jpg"
+                class="card-img-top"
+                alt="Tiim 2"
+              />
+              <div class="card-body text-center">
+                <div class="fw-bold">Karin Eegreid</div>
+                <div class="text-muted small">Põllutöötajad</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="https://image2url.com/r2/default/images/1774865567556-6a3e3826-8b91-4e65-bb12-71876e718105.jpeg"
+                class="card-img-top"
+                alt="Tiim 3"
+              />
+              <div class="card-body text-center">
+                <div class="fw-bold">Kristo Varul</div>
+                <div class="text-muted small">Taliban | SW-25</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="https://image2url.com/r2/default/images/1774865501996-9922aa87-1129-4333-b4ed-c3ab2ac2b26c.jpeg"
+                class="card-img-top"
+                alt="Tiim 4"
+              />
+              <div class="card-body text-center">
+                <div class="fw-bold">Joonas Teller</div>
+                <div class="text-muted small">Taliban | SW-25</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="hinnad" class="py-5">
+      <div class="container">
+        <h5 class="fw-bold text-center mb-4">Toiduaine superpaketid</h5>
+
+        <div class="row justify-content-center g-4">
+          <div class="col-md-5 col-lg-4">
+            <div class="card text-center shadow-sm">
+              <div class="card-body">
+                <div class="text-muted">Algaja</div>
+                <div class="display-6 fw-bold my-2">$6.70</div>
+                <p class="text-muted small">
+                  Maksad kuus korra, esimene 2 päeva tasuta, sobib kui sa ei oska veel aineid kokku mõksida
+                </p>
+                <ul class="list-unstyled small text-muted">
+                  <li>Piinatud ained</li>
+                  <li>Kõik vajalik olemas</li>
+                  <li>Ainult sulle</li>
+                </ul>
+                <a class="btn btn-primary w-100" href="#">Osta kohe!</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-lg-4">
+            <div class="card text-center shadow-sm">
+              <div class="card-body">
+                <div class="text-muted">Super ainetaja</div>
+                <div class="display-6 fw-bold my-2">$42.20</div>
+                <p class="text-muted small">Parim valik kui sinu soov on ained</p>
+                <ul class="list-unstyled small text-muted">
+                  <li>Võtad koik hea kraami endale</li>
+                  <li>Kõik märkavad sind</li>
+                  <li>Kuni tervele sõbragrupile</li>
+                </ul>
+                <a class="btn btn-primary w-100" href="#">Osta hoopis see</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="py-4 border-top bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 small">
+            <strong>kontrolltoo.com</strong>
+            <span class="text-muted">© 2067 kontrolltoo.com</span>
+          </div>
+          <div class="col-md-6 text-md-end small">
+            <a class="text-decoration-none text-muted me-3" href="#">Privaatsus</a>
+            <a class="text-decoration-none text-muted me-3" href="#">Tingimused</a>
+            <a class="text-decoration-none text-muted" href="#">Kontakt</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
